@@ -43,7 +43,6 @@ public class Numbergame {
             }
 
             totalAttempts += attempts;
-
             System.out.print("Do you want to play again? (Yes/No): ");
             playAgain = scanner.next();
         }

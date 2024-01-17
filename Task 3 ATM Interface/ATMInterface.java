@@ -33,7 +33,6 @@ public class ATMInterface {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BankAccount userAccount = new BankAccount(1000.0); // Initialize with an initial balance of $1000
-
         while (true) {
             System.out.println("\nWelcome to the ATM!");
             System.out.println("1. Check Balance");
